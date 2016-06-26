@@ -1,0 +1,1 @@
+/usr/bin/gcc  -fPIC  -fopenmp -O0 -Wall -g -ggdb  -shared -Wl,-soname,libepollsocket.so -o libepollsocket.so CMakeFiles/epollsocket.dir/crc32.c.o CMakeFiles/epollsocket.dir/epollsocket.c.o CMakeFiles/epollsocket.dir/epollworkthread.c.o CMakeFiles/epollsocket.dir/listentry.c.o -lpthread 
